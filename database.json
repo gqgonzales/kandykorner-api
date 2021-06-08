@@ -1,0 +1,11 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "name": "Palo Mira",
+      "address": "2500 Alton Top Cir",
+      "squareFootage": 1600,
+      "handicapAccessible": true
+    }
+  ]
+}
