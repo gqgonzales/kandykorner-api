@@ -6,6 +6,125 @@
       "address": "2500 Alton Top Cir",
       "squareFootage": 1600,
       "handicapAccessible": true
+    },
+    {
+      "id": 2,
+      "name": "Santa Nova",
+      "address": "15 Santa Nova St",
+      "squareFootage": 900,
+      "handicapAccessible": false
+    },
+    {
+      "id": 3,
+      "name": "Cuzameca",
+      "address": "8813 Gira Ave",
+      "squareFootage": 1400,
+      "handicapAccessible": true
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Gummy Worms",
+      "productTypeId": 1,
+      "price": 3.99
+    },
+    {
+      "id": 2,
+      "name": "Cocoa Sphere",
+      "productTypeId": 2,
+      "price": 4.99
+    },
+    {
+      "id": 3,
+      "name": "Gummy Koala-Bears",
+      "productTypeId": 1,
+      "price": 2.99
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "name": "Gummy"
+    },
+    {
+      "id": 2,
+      "name": "Chocolate"
+    },
+    {
+      "id": 3,
+      "name": "Hard Candy"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Carmen Veracruz",
+      "locationId": 1,
+      "email": "carmen@nss.com",
+      "isManager": true,
+      "isFullTime": true,
+      "hourlyRate": 22.51
+    },
+    {
+      "id": 2,
+      "name": "Luca Toni",
+      "locationId": 2,
+      "email": "luca@nss.com",
+      "isManager": true,
+      "isFullTime": true,
+      "hourlyRate": 20
+    },
+    {
+      "id": 3,
+      "name": "Jon Ramirez",
+      "locationId": 3,
+      "email": "jon@nss.com",
+      "isManager": true,
+      "isFullTime": true,
+      "hourlyRate": 22
+    },
+    {
+      "name": "Vic Higuera",
+      "locationId": 1,
+      "email": "vic@nss.com",
+      "isManager": false,
+      "isFullTime": false,
+      "hourlyRate": 18.25,
+      "id": 4
+    },
+    {
+      "name": "Jessie Jaramillo",
+      "locationId": 3,
+      "email": "jess@nss.com",
+      "isManager": false,
+      "isFullTime": true,
+      "hourlyRate": 18.5,
+      "id": 5
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Brenner Mijailović",
+      "email": "brenner@mail.com"
+    },
+    {
+      "id": 2,
+      "name": "Samantha Perasura",
+      "email": "sam@mail.com"
+    },
+    {
+      "email": "gabe@nss.com",
+      "name": "Gabe Gonzales",
+      "id": 3
+    }
+  ],
+  "customerCandy": [
+    {
+      "customerId": 3,
+      "productId": 1,
+      "id": 2
     }
   ]
 }
