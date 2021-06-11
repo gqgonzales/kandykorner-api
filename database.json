@@ -40,6 +40,18 @@
       "name": "Gummy Koala-Bears",
       "productTypeId": 1,
       "price": 2.99
+    },
+    {
+      "name": "Orange Soda",
+      "price": "1.50",
+      "productTypeId": "4",
+      "id": 4
+    },
+    {
+      "name": "Skittles",
+      "price": "2.25",
+      "productTypeId": "5",
+      "id": 5
     }
   ],
   "productTypes": [
@@ -49,11 +61,19 @@
     },
     {
       "id": 2,
-      "name": "Chocolate"
+      "name": "Pure Chocolate"
     },
     {
       "id": 3,
       "name": "Hard Candy"
+    },
+    {
+      "id": 4,
+      "name": "Soda"
+    },
+    {
+      "id": 5,
+      "name": "Coated Candy"
     }
   ],
   "employees": [
@@ -85,13 +105,13 @@
       "hourlyRate": 22
     },
     {
+      "id": 4,
       "name": "Vic Higuera",
       "locationId": 1,
       "email": "vic@nss.com",
       "isManager": false,
       "isFullTime": false,
-      "hourlyRate": 18.25,
-      "id": 4
+      "hourlyRate": 18.25
     },
     {
       "name": "Jessie Jaramillo",
@@ -101,6 +121,15 @@
       "isFullTime": true,
       "hourlyRate": 18.5,
       "id": 5
+    },
+    {
+      "id": 6,
+      "name": "Dom Badji",
+      "locationId": 1,
+      "email": "dom@nss.com",
+      "isManager": false,
+      "isFullTime": false,
+      "hourlyRate": 35
     }
   ],
   "customers": [
@@ -111,7 +140,7 @@
     },
     {
       "id": 2,
-      "name": "Samantha Perasura",
+      "name": "Samantha Delasura",
       "email": "sam@mail.com"
     },
     {
@@ -125,6 +154,26 @@
       "customerId": 3,
       "productId": 1,
       "id": 2
+    },
+    {
+      "customerId": 3,
+      "productId": 2,
+      "id": 3
+    },
+    {
+      "customerId": 3,
+      "productId": 1,
+      "id": 4
+    },
+    {
+      "customerId": 3,
+      "productId": 1,
+      "id": 5
+    },
+    {
+      "customerId": 1,
+      "productId": 3,
+      "id": 6
     }
   ]
 }
